@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timetable ascttversion="2017.6.10" importtype="database" options="idprefix:MyApp">
+   <teachers options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <teacher id="*1" name="ALDO  CASTAÑEDA SALMORÁN" short="ALDO CASTAÑEDA" htmlexportlink="teachers_0.html?frame=0"/>
+      <teacher id="*2" name="ALFREDO E. GARCIA" short="Alfredo G." htmlexportlink="teachers_0.html?frame=1"/>
+      <teacher id="*3" name="Ana Karen Martínez Zamora" short="Ana Karen Martínez Zamora" htmlexportlink="teachers_0.html?frame=2"/>
+      <teacher id="*4" name="ANGELINA  BRIONES CEREZO" short="ANGELINA BRIONES " htmlexportlink="teachers_0.html?frame=3"/>
+      <teacher id="*5" name="ANTONIO  SEVILLA" short="ANTONIO SEVILLA" htmlexportlink="teachers_0.html?frame=4"/>
+      <teacher id="*6" name="AXEL COMAS" short="AXEL C." htmlexportlink="teachers_0.html?frame=5"/>
+      <teacher id="*7" name="BENITO CERVANTES" short="BENITO C." htmlexportlink="teachers_0.html?frame=6"/>
+      <teacher id="*8" name="CARLOS FRANCISCO" short="Carlos F." htmlexportlink="teachers_0.html?frame=7"/>
+      <teacher id="*9" name="Cirilo Sánchez Portilla" short="Cirilo Sánchez Portilla" htmlexportlink="teachers_0.html?frame=8"/>
+      <teacher id="*10" name="Darío Alfonso Langle Ramírez" short="Darío Alfonso Langle Ramírez " htmlexportlink="teachers_0.html?frame=9"/>
+      <teacher id="*11" name="Darío Sánchez Moredia" short="Darío Sánchez Moredia" htmlexportlink="teachers_0.html?frame=10"/>
+      <teacher id="*12" name="Erick Iván Lugo  Pérez" short="Erick  Lugo" htmlexportlink="teachers_0.html?frame=11"/>
+      <teacher id="*13" name="Erick Rivera Enríquez" short="Erick  Rivera Enríquez" htmlexportlink="teachers_0.html?frame=12"/>
+      <teacher id="*14" name="ESTEFANÍA  ESCOBAR" short="ESTEFANÍA  E." htmlexportlink="teachers_0.html?frame=13"/>
+      <teacher id="*15" name="FELIX ORTEGA LOZANO" short="FELIX O." htmlexportlink="teachers_0.html?frame=14"/>
+      <teacher id="*16" name="Fernando Parada Reyes" short="Fernando PR" htmlexportlink="teachers_0.html?frame=15"/>
+      <teacher id="*17" name="HÉCTOR VÁZQUEZ" short="HÉCTOR VÁZQUEZ" htmlexportlink="teachers_0.html?frame=16"/>
+      <teacher id="*18" name="J. Trinidad Nieto López" short="J. Trinidad Nieto López " htmlexportlink="teachers_0.html?frame=17"/>
+      <teacher id="*19" name="Joaquín Jiménez Muñoz" short="Joaquín Jiménez Muñoz" htmlexportlink="teachers_0.html?frame=18"/>
+      <teacher id="*20" name="JOSE DE JESUS LIMON TORRES" short="Jose de jesus Limon" htmlexportlink="teachers_0.html?frame=19"/>
+      <teacher id="*21" name="JOSÉ LUIS  VÁZQUEZ BARRIOS" short="JOSÉ LUIS VÁZQUEZ " htmlexportlink="teachers_0.html?frame=20"/>
+      <teacher id="*22" name="JOSÉ LUIS LIMA SANTACRUZ" short="JOSÉ LUIS L." htmlexportlink="teachers_0.html?frame=21"/>
+      <teacher id="*23" name="JOSÉ VÍCTOR GALAVIZ RODRÍGUEZ" short="J. VÍCTOR G." htmlexportlink="teachers_0.html?frame=22"/>
+      <teacher id="*24" name="Juvenal Pérez" short="Juvenal Pérez" htmlexportlink="teachers_0.html?frame=23"/>
+      <teacher id="*25" name="LETICIA HURTADO VARELA" short="Leti" htmlexportlink="teachers_0.html?frame=24"/>
+      <teacher id="*26" name="MA. DE LOURDES HUERTA BECERRA" short="Maria de Lourdes Huerta " htmlexportlink="teachers_0.html?frame=25"/>
+      <teacher id="*27" name="MA. JUDITH ORTIZ RAMOS" short="MA. JUDITH " htmlexportlink="teachers_0.html?frame=26"/>
+      <teacher id="*28" name="Marco Antonio Parra Flores" short="Marco Antonio Parra Flores" htmlexportlink="teachers_0.html?frame=27"/>
+      <teacher id="*29" name="Orlando Faustino Hernández Toriz" short="Orlando Faustino Hernández Toriz" htmlexportlink="teachers_0.html?frame=28"/>
+      <teacher id="*30" name="Oscar Martínez De Los Santos" short="Oscar Martínez De Los Santos" htmlexportlink="teachers_0.html?frame=29"/>
+      <teacher id="*31" name="PABLO SÁNCHEZ LÓPEZ" short="PABLO S" htmlexportlink="teachers_0.html?frame=30"/>
+      <teacher id="*32" name="PLACIDO FLORES GUERRERO" short="PLACIDO FLORES " htmlexportlink="teachers_0.html?frame=31"/>
+      <teacher id="*33" name="Rodrigo Riveroll Ortega" short="Rodrigo Riveroll Ortega" htmlexportlink="teachers_0.html?frame=32"/>
+      <teacher id="*34" name="Román Daniel Romero Mitre" short="Román Daniel Romero Mitre" htmlexportlink="teachers_0.html?frame=33"/>
+      <teacher id="*35" name="ROMUALDO  MARTINEZ CARMONA" short="ROMUALDO MARTINEZ " htmlexportlink="teachers_0.html?frame=34"/>
+      <teacher id="*36" name="TANIA B. MERGAREJO" short="TANIA B." htmlexportlink="teachers_0.html?frame=35"/>
+      <teacher id="*37" name="Vacante 1" short="Vacante 1 " htmlexportlink="teachers_0.html?frame=36"/>
+      <teacher id="*38" name="Zuleika Corona Cervantes" short="Zuleika Corona Cervantes" htmlexportlink="teachers_0.html?frame=37"/>
+   </teachers>
+   <classes options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name, short,htmlexportlink">
+      <class id="*1" name="1° A PIAA MATUTINO" htmlexportlink="index.html?frame=0"/>
+      <class id="*2" name="1° B PIAA MATUTINO" htmlexportlink="index.html?frame=1"/>
+      <class id="*3" name="1° C PIAA MATUTINO" htmlexportlink="index.html?frame=2"/>
+      <class id="*4" name="1° A PIAP MATUTINO" htmlexportlink="index.html?frame=3"/>
+      <class id="*5" name="1° A PIAM MATUTINO" htmlexportlink="index.html?frame=4"/>
+      <class id="*6" name="1° B PIAM MATUTINO" htmlexportlink="index.html?frame=5"/>
+      <class id="*7" name="4° A PIAA - MATUTINO" htmlexportlink="index.html?frame=6"/>
+      <class id="*8" name="4° B PIAA - MATUTINO" htmlexportlink="index.html?frame=7"/>
+      <class id="*9" name="4° C PIAA-MATUTINO" htmlexportlink="index.html?frame=8"/>
+      <class id="*10" name="4° A PIAP - MATUTINO" htmlexportlink="index.html?frame=9"/>
+      <class id="*11" name="4° A PIAM MATUTINO" htmlexportlink="index.html?frame=10"/>
+      <class id="*12" name="4° B PIAM MATUTINO" htmlexportlink="index.html?frame=11"/>
+      <class id="*13" name="7° A IPOI - VESPERTINO" htmlexportlink="index.html?frame=12"/>
+      <class id="*14" name="7° B IPOI - VESPERTINO" htmlexportlink="index.html?frame=13"/>
+      <class id="*15" name="7° C IPOI - VESPERTINO" htmlexportlink="index.html?frame=14"/>
+      <class id="*16" name="7° D IPOI - VESPERTINO" htmlexportlink="index.html?frame=15"/>
+      <class id="*17" name="7° E IPOI - VESPERTINO" htmlexportlink="index.html?frame=16"/>
+      <class id="*18" name="9° A IPOI - VESPERTINO" htmlexportlink="index.html?frame=17"/>
+      <class id="*19" name="10° A IPOI - VESPERTINO" htmlexportlink="index.html?frame=18"/>
+      <class id="*20" name="10° B IPOI - VESPERTINO" htmlexportlink="index.html?frame=19"/>
+      <class id="*21" name="10° C IPOI - VESPERTINO" htmlexportlink="index.html?frame=20"/>
+      <class id="*22" name="10° D IPOI - VESPERTINO" htmlexportlink="index.html?frame=21"/>
+      <class id="*23" name="10° E IPOI - VESPERTINO" htmlexportlink="index.html?frame=22"/>
+   </classes>
+   <subjects options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <subject id="*1" name="ADM. PTC." short="ADM. PTC." htmlexportlink=""/>
+      <subject id="*2" name="ADMINISTRACIÓN DE LA CALIDAD" short="ADMINISTRACIÓN DE LA CALIDAD" htmlexportlink=""/>
+      <subject id="*3" name="ADMINISTRACIÓN DE LA PRODUCCIÓN  I" short="ADMINISTRACIÓN DE LA PRODUCCIÓN  I" htmlexportlink=""/>
+      <subject id="*4" name="ADMINISTRACIÓN DE LA PRODUCCIÓN  II" short="ADMINISTRACIÓN DE LA PRODUCCIÓN  II" htmlexportlink=""/>
+      <subject id="*5" name="ADMINISTRACION DE PROYECTOS" short="ADMINISTRACION DE PROYECTOS" htmlexportlink=""/>
+      <subject id="*6" name="ADMINISTRACIÓN DEL TIEMPO" short="ADMINISTRACIÓN DEL TIEMPO" htmlexportlink=""/>
+      <subject id="*7" name="ÁLGEBRA LINEAL" short="ÁLGEBRA LINEAL" htmlexportlink=""/>
+      <subject id="*8" name="ANÁLISIS DE CIRCUITOS ELÉCTRICOS" short="ANÁLISIS DE CIRCUITOS ELÉCTRICOS" htmlexportlink=""/>
+      <subject id="*9" name="ANÁLISIS DE PROYECTOS DE INVERSIÓN" short="ANÁLISIS DE PROYECTOS DE INVERSIÓN" htmlexportlink=""/>
+      <subject id="*10" name="ASESORIA " short="ASESORIA " htmlexportlink=""/>
+      <subject id="*11" name="Asesoría virtual B-L" short="Av B-L" htmlexportlink=""/>
+      <subject id="*12" name="AUTOMATIZACIÓN DE PROCESOS" short="AUTOMATIZACIÓN DE PROCESOS" htmlexportlink=""/>
+      <subject id="*13" name="CÁLCULO APLICADO" short="CÁLCULO APLICADO" htmlexportlink=""/>
+      <subject id="*14" name="CALCULO DIFERENCIAL" short="CALCULO DIFERENCIAL" htmlexportlink=""/>
+      <subject id="*15" name="CÁLCULO INTEGRAL" short="CÁLCULO INTEGRAL" htmlexportlink=""/>
+      <subject id="*16" name="CALIDAD" short="CALIDAD" htmlexportlink=""/>
+      <subject id="*17" name="CEINCUBA" short="CEINCUBA" htmlexportlink=""/>
+      <subject id="*18" name="CIRCUITOS ELECTRICOS" short="CIRCUITOS ELECTRICOS" htmlexportlink=""/>
+      <subject id="*19" name="CONOCER" short="CONOCER" htmlexportlink=""/>
+      <subject id="*20" name="CONTROL AUTOMATICO" short="CONTROL AUTOMATICO" htmlexportlink=""/>
+      <subject id="*21" name="CONTROL DE MOTORES" short="CONTROL DE MOTORES" htmlexportlink=""/>
+      <subject id="*22" name="CONTROL DE MOTORES II" short="CONTROL DE MOTORES II" htmlexportlink=""/>
+      <subject id="*23" name="CONTROL DE MOTORES ING" short="CONTROL DE MOTORES ING" htmlexportlink=""/>
+      <subject id="*24" name="CONTROL ESTADÍSTICO DEL PROCESO" short="CONTROL ESTADÍSTICO DEL PROCESO" htmlexportlink=""/>
+      <subject id="*25" name="CONTROL LÓGICO AVANZADO" short="CONTROL LÓGICO AVANZADO" htmlexportlink=""/>
+      <subject id="*26" name="CONTROLADORES LÓGICOS PROGRAMABLES " short="CONTROLADORES LÓGICOS PROGRAMABLES " htmlexportlink=""/>
+      <subject id="*27" name="COORD. ACADEMIA" short="CA" htmlexportlink=""/>
+      <subject id="*28" name="COORD. ESTADIAS" short="CE" htmlexportlink=""/>
+      <subject id="*29" name="COORD. TUTORES" short="COORD. TUTORES" htmlexportlink=""/>
+      <subject id="*30" name="COSTOS DE MANUFACTURA" short="CDM" htmlexportlink=""/>
+      <subject id="*31" name="COSTOS DE PRODUCCIÓN" short="COSTOS DE PRODUCCIÓN" htmlexportlink=""/>
+      <subject id="*32" name="CULTURA EMPRENDEDORA" short="CULT. EMP." htmlexportlink=""/>
+      <subject id="*33" name="Desarrollo y seguimiento de proyectos" short="Desarrollo y seguimiento de proyectos" htmlexportlink=""/>
+      <subject id="*34" name="DESARROLLO Y SEGUIMIENTO DE PROYECTOS" short="DESARROLLO Y SEGUIMIENTO DE PROYECTOS" htmlexportlink=""/>
+      <subject id="*35" name="DIBUJO INDUSTRIAL" short="DIBUJO INDUSTRIAL" htmlexportlink=""/>
+      <subject id="*36" name="DIBUJO INDUSTRIAL AVANZADO" short="DIBUJO INDUSTRIAL AVANZADO" htmlexportlink=""/>
+      <subject id="*37" name="Dirección de equipos de alto rendimiento (B-L)" short="Dirección de equipos de alto rendimiento (B-L)" htmlexportlink=""/>
+      <subject id="*38" name="DISEÑO ASISTIDO POR COMPUTADORA" short="DISEÑO ASISTIDO POR COMPUTADORA" htmlexportlink=""/>
+      <subject id="*39" name="DISEÑO DE PRODUCTO" short="DISEÑO DE PRODUCTO" htmlexportlink=""/>
+      <subject id="*40" name="DISPOSITIVOS ANALÓGICOS" short="DISPOSITIVOS ANALÓGICOS" htmlexportlink=""/>
+      <subject id="*41" name="DISTRIBUCIÓN DE PLANTA" short="DISTRIBUCIÓN DE PLANTA" htmlexportlink=""/>
+      <subject id="*42" name="ECUACIONES DIFERENCIALES APLICADAS" short=" ECUACIONES DIFERENCIALES APLICADAS" htmlexportlink=""/>
+      <subject id="*43" name="ELECTRICIDAD INDUSTRIAL" short="ELECTRICIDAD INDUSTRIAL" htmlexportlink=""/>
+      <subject id="*44" name="ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL " short="ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL " htmlexportlink=""/>
+      <subject id="*45" name="ELECTRICIDAD Y MAGNETISMO" short="ELECTRICIDAD Y MAGNETISMO" htmlexportlink=""/>
+      <subject id="*46" name="ELEMENTOS DIMENSIONALES	" short="ELEMENTOS DIMENSIONALES	" htmlexportlink=""/>
+      <subject id="*47" name="ESTADÍAS" short="ESTADÍAS" htmlexportlink=""/>
+      <subject id="*48" name="ESTADISTICA " short="E" htmlexportlink=""/>
+      <subject id="*49" name="ESTADÍSTICA APLICADA A LA INGENIERÍA" short="ESTADÍSTICA APLICADA" htmlexportlink=""/>
+      <subject id="*50" name="ESTRUCTURA Y PROPIEDAD DE LOS POLIMEROS Y LOS ACEROS" short="ESTRUCTURA Y PROPIEDAD DE LOS POLIMEROS Y LOS ACEROS" htmlexportlink=""/>
+      <subject id="*51" name="ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES" short="ESTRUCTURA Y PROPIEDADES DE LOS MATERIALES" htmlexportlink=""/>
+      <subject id="*52" name="ESTUDIO DE MERCADO" short="ESTUDIO DE MERCADO" htmlexportlink=""/>
+      <subject id="*53" name="EXPRESIÓN ORAL Y ESCRITA I" short="EXPRESIÓN ORAL Y ESCRITA I" htmlexportlink=""/>
+      <subject id="*54" name="EXPRESION ORAL Y ESCRITA II (B-L)" short="EXPRESION ORAL Y ESCRITA II (B-L)" htmlexportlink=""/>
+      <subject id="*55" name="FÍSICA" short="FÍSICA" htmlexportlink=""/>
+      <subject id="*56" name="FÍSICA PARA INGENIERÍA" short="FÍSICA PARA INGENIERÍA" htmlexportlink=""/>
+      <subject id="*57" name="FORMACIÓN SOCIOCULTURAL I" short="FORMACIÓN SOCIOCULTURAL I" htmlexportlink=""/>
+      <subject id="*58" name="FORMACION SOCIOCULTURAL II (B-L)" short="FORMACION SOCIOCULTURAL II (B-L)" htmlexportlink=""/>
+      <subject id="*59" name="FORMACIÓN SOCIOCULTURAL III  (B-L)" short="FORMACIÓN SOCIOCULTURAL III (B-L)" htmlexportlink=""/>
+      <subject id="*60" name="FORMACIÓN SOCIOCULTURAL IV (B-L)" short="FORMACIÓN SOCIOCULTURAL IV (B-L)" htmlexportlink=""/>
+      <subject id="*61" name="FUNCIONES MATEMATICAS" short="FUNCIONES MATEMATICAS" htmlexportlink=""/>
+      <subject id="*62" name="FUNDAMENTOS DE INGENIERÍA ECONÓMICA" short="FUNDAMENTOS DE INGENIERÍA ECONÓMICA" htmlexportlink=""/>
+      <subject id="*63" name="GESTIÓN AMBIENTAL" short="GESTIÓN AMBIENTAL" htmlexportlink=""/>
+      <subject id="*64" name="GRADUACIÓN POR COMPUTADORA" short="GPC" htmlexportlink=""/>
+      <subject id="*65" name="HERRAMENTALES Y DISPOSITIVOS" short="HERRAMENTALES Y DISPOSITIVOS" htmlexportlink=""/>
+      <subject id="*66" name="HERRAMIENTAS AVANZADAS DE LA CALIDAD" short="HERRAMIENTAS AVANZADAS DE LA CALIDAD" htmlexportlink=""/>
+      <subject id="*67" name="HERRAMIENTAS INFORMÁTICAS" short="HERRAMIENTAS INFORMÁTICAS" htmlexportlink=""/>
+      <subject id="*68" name="HIDRÁULICA Y NEUMÁTICA INDUSTRIAL" short="HIDRÁULICA Y NEUMÁTICA INDUSTRIAL" htmlexportlink=""/>
+      <subject id="*69" name="HISTORIA Y SOCIOLOGÍA DE LA MODA" short="HYSDLM" htmlexportlink=""/>
+      <subject id="*70" name="Ingeniería de Materiales" short="Ingeniería de Materiales" htmlexportlink=""/>
+      <subject id="*71" name="INGENIERÍA DE PROCESOS" short="INGENIERÍA DE PROCESOS" htmlexportlink=""/>
+      <subject id="*72" name="INGENIERIA DE PROYECTOS" short="INGENIERIA DE PROYECTOS" htmlexportlink=""/>
+      <subject id="*73" name="INGLÉS  V" short="INGLÉS  V" htmlexportlink=""/>
+      <subject id="*74" name="INGLÉS I" short="INGLÉS I" htmlexportlink=""/>
+      <subject id="*75" name="INGLES II" short="INGLES II" htmlexportlink=""/>
+      <subject id="*76" name="INGLÉS III" short="INGLÉS III" htmlexportlink=""/>
+      <subject id="*77" name="INGLÉS IV" short="INGLÉS IV" htmlexportlink=""/>
+      <subject id="*78" name="INGLÉS IX" short="INGLÉS IX" htmlexportlink=""/>
+      <subject id="*79" name="INGLÉS VI" short="INGLÉS VI" htmlexportlink=""/>
+      <subject id="*80" name="INGLÉS VII" short="INGLÉS VII" htmlexportlink=""/>
+      <subject id="*81" name="INGLÉS VIII" short="INGLÉS VIII" htmlexportlink=""/>
+      <subject id="*82" name="INTEGRADORA I" short="INTEGRADORA I" htmlexportlink=""/>
+      <subject id="*83" name="INTEGRADORA II" short="INTEGRADORA II" htmlexportlink=""/>
+      <subject id="*84" name="INVESTIGACIÓN DE OPERACIONES" short="INVESTIGACIÓN DE OPERACIONES" htmlexportlink=""/>
+      <subject id="*85" name="INVESTIGACIÓN PTC " short="I-PTC" htmlexportlink=""/>
+      <subject id="*86" name="LAB. ADM" short="LA" htmlexportlink=""/>
+      <subject id="*87" name="LOGISTICA DE MATERIALES" short="LOGISTICA DE MATERIALES" htmlexportlink=""/>
+      <subject id="*88" name="MANTENIMIENTO AUTÓNOMO EN PROCESO" short="MANTENIMIENTO AUTÓNOMO EN PROCESO" htmlexportlink=""/>
+      <subject id="*89" name="MANUFACTURA ESBELTA" short="MANUFACTURA ESBELTA" htmlexportlink=""/>
+      <subject id="*90" name="MAQUINAS Y HERRAMIENTAS " short="MAQUINAS Y HERRAMIENTAS " htmlexportlink=""/>
+      <subject id="*91" name="MATEMÁTICAS" short="M" htmlexportlink=""/>
+      <subject id="*92" name="MATEMÁTICAS AVANZADAS I" short="MATEMÁTICAS AVANZADAS I" htmlexportlink=""/>
+      <subject id="*93" name="Matemáticas avanzadas II" short="Matemáticas avanzadas II" htmlexportlink=""/>
+      <subject id="*94" name="MATEMÁTICAS PARA INGENIERÍA I" short="MATEMÁTICAS PARA INGENIERÍA I" htmlexportlink=""/>
+      <subject id="*95" name="MATEMATICAS PARA INGENIERIA II" short="MATEMATICAS PARA INGENIERIA II" htmlexportlink=""/>
+      <subject id="*96" name="MATERIAL DIDÁCTICO" short="MAT. DID." htmlexportlink=""/>
+      <subject id="*97" name="MECÁNICA" short="MECÁNICA" htmlexportlink=""/>
+      <subject id="*98" name="METODOS DE INVESTIGACIÓN" short="MDI" htmlexportlink=""/>
+      <subject id="*99" name="MÉTODOS Y SISTEMAS DE TRABAJO I" short="MÉTODOS Y SISTEMAS DE TRABAJO I" htmlexportlink=""/>
+      <subject id="*100" name="MÉTODOS Y SISTEMAS DE TRABAJO II" short="MYSDT-II" htmlexportlink=""/>
+      <subject id="*101" name="METROLOGÍA" short="METROLOGÍA" htmlexportlink=""/>
+      <subject id="*102" name="METROLOGÍA DIMENSIONAL AUTOMATIZADA" short="METROLOGÍA DIMENSIONAL AUTOMATIZADA" htmlexportlink=""/>
+      <subject id="*103" name="METROLOGÍA II" short="METROLOGÍA II" htmlexportlink=""/>
+      <subject id="*104" name="Metrología industrial" short="Metrología industrial" htmlexportlink=""/>
+      <subject id="*105" name="MOLDES" short="MOLDES" htmlexportlink=""/>
+      <subject id="*106" name="NEGOCIACIÓN EMPRESARIAL" short="NEGOCIACIÓN EMPRESARIAL" htmlexportlink=""/>
+      <subject id="*107" name="OPTATIVA I" short="OPTATIVA I" htmlexportlink=""/>
+      <subject id="*108" name="OPTATIVA II " short="OPTATIVA II " htmlexportlink=""/>
+      <subject id="*109" name="ORGANIZACIÓN INDUSTRIAL" short="ORGANIZACIÓN INDUSTRIAL" htmlexportlink=""/>
+      <subject id="*110" name="PLANEACIÓN DE LA PRODUCCIÓN" short="PDLP" htmlexportlink=""/>
+      <subject id="*111" name="PLANEACION Y ORGANIZACION DEL TRABAJO" short="PLANEACION Y ORGANIZACION DEL TRABAJO" htmlexportlink=""/>
+      <subject id="*112" name="Planeación y organización del trabajo (B-L)" short="Planeación y organización del trabajo (B-L)" htmlexportlink=""/>
+      <subject id="*113" name="PRINCIPIOS DE AUTOMATIZACIÓN" short="PRINCIPIOS DE AUTOMATIZACIÓN" htmlexportlink=""/>
+      <subject id="*114" name="PROBABILIDAD Y ESTADÍSTICA" short="PROBABILIDAD Y ESTADÍSTICA" htmlexportlink=""/>
+      <subject id="*115" name="PROCESOS DE MANUFACTURA" short="PROCESOS DE MANUFACTURA" htmlexportlink=""/>
+      <subject id="*116" name="PROCESOS DE MANUFACTURA DE AUTOPARTES METÁLICAS" short="PROCESOS DE MANUFACTURA DE AUTOPARTES METÁLICAS" htmlexportlink=""/>
+      <subject id="*117" name="PROCESOS DE MANUFACTURA DE AUTOPARTES PLÁSTICAS" short="PROCESOS DE MANUFACTURA DE AUTOPARTES PLÁSTICAS" htmlexportlink=""/>
+      <subject id="*118" name="PROCESOS DE MANUFACTURA DE MOLDES, CABEZALES Y DADOS " short="PROCESOS DE MANUFACTURA DE MOLDES, CABEZALES Y DADOS " htmlexportlink=""/>
+      <subject id="*119" name="PROCESOS DE MANUFACTURA I" short="PROCESOS DE MANUFACTURA I" htmlexportlink=""/>
+      <subject id="*120" name="PROCESOS PRODUCTIVOS" short="PROCESOS PRODUCTIVOS" htmlexportlink=""/>
+      <subject id="*121" name="PROYECTO ACREDITACIÓN" short="PROYECTO ACREDITACIÓN" htmlexportlink=""/>
+      <subject id="*122" name="PROYECTO B-L" short="P B-L" htmlexportlink=""/>
+      <subject id="*123" name="PROYECTO E. DUAL" short="PROYECTO E. DUAL" htmlexportlink=""/>
+      <subject id="*124" name="PROYECTO PA" short="PROYECTO PA" htmlexportlink=""/>
+      <subject id="*125" name="PROYECTO PTC" short="PROYECTO PTC" htmlexportlink=""/>
+      <subject id="*126" name="Química" short="Q" htmlexportlink=""/>
+      <subject id="*127" name="QUÍMICA BÁSICA" short="QUÍMICA BÁSICA" htmlexportlink=""/>
+      <subject id="*128" name="RECICLADO DE POLÍMEROS" short="RECICLADO DE POLÍMEROS" htmlexportlink=""/>
+      <subject id="*129" name="RESISTENCIA DE LOS MATERIALES" short="RES. D. L. MATERIALES" htmlexportlink=""/>
+      <subject id="*130" name="RESPONSABLE DE CA" short="RDC" htmlexportlink=""/>
+      <subject id="*131" name="REUNIÓN DE ACADEMIA" short="R. ACADEMIA" htmlexportlink=""/>
+      <subject id="*132" name="REUNÓN DE INVESTIGACIÓN" short="REUNÓN DE INVESTIGACIÓN" htmlexportlink=""/>
+      <subject id="*133" name="SEGURIDAD E HIGIENE INDUSTRIAL" short="SEHI" htmlexportlink=""/>
+      <subject id="*134" name="SEGURIDAD INDUSTRIAL" short="SEGURIDAD INDUSTRIAL" htmlexportlink=""/>
+      <subject id="*135" name="SISTEMAS AUTOMOTRICES " short="SISTEMAS AUTOMOTRICES " htmlexportlink=""/>
+      <subject id="*136" name="SISTEMAS CAM" short="SISTEMAS CAM" htmlexportlink=""/>
+      <subject id="*137" name="SISTEMAS DE CONFECCIÓN INDUSTRIAL" short="SDCI" htmlexportlink=""/>
+      <subject id="*138" name="SISTEMAS DE CONTROL" short="SISTEMAS DE CONTROL" htmlexportlink=""/>
+      <subject id="*139" name="SISTEMAS DE GRADUACIÓN INDUSTRIAL" short="SDGI" htmlexportlink=""/>
+      <subject id="*140" name="SISTEMAS DE MANUFACTURA" short="SDM" htmlexportlink=""/>
+      <subject id="*141" name="SISTEMAS DE MANUFACTURA FLEXIBLE" short="SISTEMAS DE MANUFACTURA FLEXIBLE" htmlexportlink=""/>
+      <subject id="*142" name="SISTEMAS ELECTRICOS Y NEUMATICOS" short="SISTEMAS ELECTRICOS Y NEUMATICOS" htmlexportlink=""/>
+      <subject id="*143" name="SISTEMAS HIDRAULICOS Y NEUMATICOS" short="SHYN" htmlexportlink=""/>
+      <subject id="*144" name="SISTEMAS MECÁNICOS I " short="SISTEMAS MECÁNICOS I " htmlexportlink=""/>
+      <subject id="*145" name="SISTEMAS MECANICOS II" short="SISTEMAS MECANICOS II" htmlexportlink=""/>
+      <subject id="*146" name="TALLER ALUMNOS/DOCENTES" short="TA" htmlexportlink=""/>
+      <subject id="*147" name="TECNOLOGÍAS PARA LA DIGITALIZACIÓN" short="TECNOLOGÍAS PARA LA DIGITALIZACIÓN" htmlexportlink=""/>
+      <subject id="*148" name="TERMODINÁMICA " short="TERMODINÁMICA " htmlexportlink=""/>
+      <subject id="*149" name="TÓPICOS AVANZADOS DE CALIDAD" short="TÓPICOS AVANZADOS DE CALIDAD" htmlexportlink=""/>
+      <subject id="*150" name="TÓPICOS DE DISEÑO MECÁNICO INDUSTRIAL" short="TDDMI" htmlexportlink=""/>
+      <subject id="*151" name="TÓPICOS DE MANUFACTURA" short="TÓPICOS DE MANUFACTURA" htmlexportlink=""/>
+      <subject id="*152" name="TÓPICOS DE PROCESO DE INYECCIÓN DE TERMOPLÁSTICOS" short="TDPDIDT" htmlexportlink=""/>
+      <subject id="*153" name="TRANSFORMACIÓN DE PLÁSTICOS I " short="TRANSFORMACIÓN DE PLÁSTICOS I " htmlexportlink=""/>
+      <subject id="*154" name="TRANSFORMACIÓN DE PRODUCTOS PLÁSTICOS II" short="TRANSFORMACIÓN DE PRODUCTOS PLÁSTICOS II" htmlexportlink=""/>
+      <subject id="*155" name="TUTORIA" short="TUTORIA" htmlexportlink=""/>
+      <subject id="*156" name="Tutoría Adm./Individual" short="Tutoría Adm./Individual" htmlexportlink=""/>
+   </subjects>
+   <classrooms options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <classroom id="*1" name="AULA A" short="AULA A" htmlexportlink="rooms.html?frame=0"/>
+      <classroom id="*2" name="AULA B" short="AULA B" htmlexportlink="rooms.html?frame=1"/>
+      <classroom id="*3" name="C1" short="C1" htmlexportlink="rooms.html?frame=2"/>
+      <classroom id="*4" name="C7" short="C7" htmlexportlink="rooms.html?frame=3"/>
+      <classroom id="*5" name="C8" short="C8" htmlexportlink="rooms.html?frame=4"/>
+      <classroom id="*6" name="C9" short="C9" htmlexportlink="rooms.html?frame=5"/>
+      <classroom id="*7" name="C10" short="C10" htmlexportlink="rooms.html?frame=6"/>
+      <classroom id="*8" name="C11" short="C11" htmlexportlink="rooms.html?frame=7"/>
+      <classroom id="*9" name="C12" short="C12" htmlexportlink="rooms.html?frame=8"/>
+      <classroom id="*10" name="C13" short="C13" htmlexportlink="rooms.html?frame=9"/>
+      <classroom id="*11" name="C14" short="C14" htmlexportlink="rooms.html?frame=10"/>
+      <classroom id="*12" name="C15" short="C15" htmlexportlink="rooms.html?frame=11"/>
+      <classroom id="*13" name="C16" short="C16" htmlexportlink="rooms.html?frame=12"/>
+      <classroom id="*14" name="CAD-CAM" short="CAD-CAM" htmlexportlink="rooms.html?frame=13"/>
+      <classroom id="*15" name="HIDRAHULICA Y NEUMATICA" short="HID. Y NEUM." htmlexportlink="rooms.html?frame=14"/>
+      <classroom id="*16" name="INF. C PTA. BAJA" short="INF. C PTA. BAJA" htmlexportlink="rooms.html?frame=15"/>
+      <classroom id="*17" name="LAB. AUTOCAD (Orlando)" short="LAB. AUTOCAD (Orlando)" htmlexportlink="rooms.html?frame=16"/>
+      <classroom id="*18" name="LAB. DE HERRAMIENTAS ESTADISTICA (ipoi nuevo)" short="LAB. DE HERRAMIENTAS ESTADISTICA (ipoi nuevo)" htmlexportlink="rooms.html?frame=17"/>
+      <classroom id="*19" name="Lab. Electrónica" short="Lab. Electrónica" htmlexportlink="rooms.html?frame=18"/>
+      <classroom id="*20" name="Lab. Idiomas F" short="Lab. F" htmlexportlink="rooms.html?frame=19"/>
+      <classroom id="*21" name="LABORATORIO ELECTRICIDAD" short="LABORATORIO ELECTRICIDAD" htmlexportlink="rooms.html?frame=20"/>
+      <classroom id="*22" name="LABORATORIO REDES" short="LABORATORIO REDES" htmlexportlink="rooms.html?frame=21"/>
+      <classroom id="*23" name="LABORATORIO ROBOTICA" short="LABORATORIO ROBOTICA" htmlexportlink="rooms.html?frame=22"/>
+      <classroom id="*24" name="MANUFACTURA INTEGRADA POR COMPUTADORA" short="MANUFACTURA INTEGRADA POR COMPUTADORA" htmlexportlink="rooms.html?frame=23"/>
+      <classroom id="*25" name="MÀQUINAS HERRAMIENTAS (TALLER)" short="MÀQUINAS HERRAMIENTAS (TALLER)" htmlexportlink="rooms.html?frame=24"/>
+      <classroom id="*26" name="Metrología" short="Metrología" htmlexportlink="rooms.html?frame=25"/>
+      <classroom id="*27" name="PAILERIA Y SOLDADURA" short="PAILERIA Y SOLDADURA" htmlexportlink="rooms.html?frame=26"/>
+      <classroom id="*28" name="PLASTICOS" short="PLASTICOS" htmlexportlink="rooms.html?frame=27"/>
+      <classroom id="*29" name="QUÍMICA B" short="QUÍMICA B" htmlexportlink="rooms.html?frame=28"/>
+      <classroom id="*30" name="RESISTENCIA DE MATERIALES" short="RESISTENCIA DE MATERIALES" htmlexportlink="rooms.html?frame=29"/>
+      <classroom id="*31" name="SISTEMAS AUTOMOTRICES" short="SAUT" htmlexportlink="rooms.html?frame=30"/>
+      <classroom id="*32" name="Six Sigma" short="Six Sigma" htmlexportlink="rooms.html?frame=31"/>
+   </classrooms>
+   <students options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,classid,name,htmlexportlink"/>
+   <Settings bPrintClass="1" bPrintTeacher="1" bPrintClassroom="1" bPrintStudents="1" strPrintClass="Clases" strPrintTeacher="Profesores" strPrintClassroom="Aulas" strPrintStudent="Estudiantes" strPrintSummary="Horarios totales" bPrintSummaryClass="1" bPrintSummaryTeacher="1" bPrintSummaryClassroom="1" strPrintSummaryClass="Clases" strPrintSummaryTeacher="Profesores" strPrintSummaryClassroom="Aulas" bSeparateWeeksTerms="0" nWeeks="0" nTerms="0">
+      <Weeks W0="Todas las semanas" W1="La semana A"/>
+      <Terms T0="Todo el año" T1="Período 1"/>
+      <strPrintWeek>La semana</strPrintWeek>
+      <strPrintTerm>Período</strPrintTerm>
+   </Settings>
+</timetable>

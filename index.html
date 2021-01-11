@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Parser</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="m-4">Función para cargar un archivo xml con Ajax</h1>
+        <button type="button" id="btnCarga" class="btn btn-primary">Cargar archivo xml</button>
+        <button type="button" id="btnProfesores" class="btn btn-secondary">Listar Profesores</button>
+        <button type="button" id="btnGrupos" class="btn btn-warning">Listar Grupos</button>
+        <button type="button" id="btnMaterias" class="btn btn-danger">Listar Materias</button>
+        <button type="button" id="btnAulas" class="btn btn-success">Listar Aulas</button>
+        <div class="row mt-3">
+            <div class="col-8">
+                <h1 id="tituloTable"></h1>
+                <table id="datos" class="table">
+        
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        const teachersObj = [];
+        const gruposObj = [];
+        const materiasObj = [];
+        const aulasObj = [];
+
+        const buttonCarga = document.querySelector('#btnCarga');
+        buttonCarga.addEventListener('click', cargarDatos);
+
+        document.querySelector('#btnProfesores').addEventListener('click', function(){
+            imprimeTabla("Listado de Profesores", teachersObj);
+        });
+
+        document.querySelector('#btnMaterias').addEventListener('click', function(){
+            imprimeTabla("Listado de Materias", materiasObj);
+        });
+
+        document.querySelector('#btnGrupos').addEventListener('click', function(){
+            imprimeTabla("Listado de Grupos", gruposObj);
+        });
+
+        document.querySelector('#btnAulas').addEventListener('click', function(){
+            imprimeTabla("Listado de Aulas", aulasObj);
+        });
+
+        function cargarDatos(){
+            let xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    cargarXML(this);
+                }
+            };
+            xhr.open("GET", "timetable.xml", true);
+            xhr.send();
+        }
+
+        function cargarXML(xml){
+
+            //Carga de Teachers
+            let docXML = xml.responseXML;
+            let teachers = docXML.getElementsByTagName("teacher");
+            for(let i = 0; i < teachers.length; i++ ){
+                let teacherObj = {};
+                teacherObj.id = teachers[i].attributes.id.value;
+                teacherObj.name = teachers[i].attributes.name.value;
+                teacherObj.short = teachers[i].attributes.short.value;
+                teachersObj.push(teacherObj);
+            }
+            console.log(teachersObj);
+
+            //Carga de Grupos
+            let grupos = docXML.getElementsByTagName("class");
+            for(let i = 0; i < grupos.length; i++ ){
+                let grupoObj = {};
+                grupoObj.id = grupos[i].attributes.id.value;
+                grupoObj.name = grupos[i].attributes.name.value;
+                gruposObj.push(grupoObj);
+            }
+            console.log(gruposObj);
+
+            //Carga de Materias
+            let materias = docXML.getElementsByTagName("subject");
+            for(let i = 0; i < materias.length; i++){
+                let materiaObj = {};
+                materiaObj.id = materias[i].attributes.id.value;
+                materiaObj.name = materias[i].attributes.name.value;
+                materiaObj.short = materias[i].attributes.short.value;
+                materiasObj.push(materiaObj);
+            }
+            console.log(materiasObj);
+
+            //Carga Aulas
+            let aulas = docXML.getElementsByTagName("classroom");
+            for(let i = 0; i < aulas.length; i++){
+                let aulaObj = {};
+                aulaObj.id = aulas[i].attributes.id.value;
+                aulaObj.name = aulas[i].attributes.name.value;
+                aulaObj.short = aulas[i].attributes.short.value;
+                aulasObj.push(aulaObj);
+            }
+            console.log(aulasObj);
+        }
+
+        function imprimeTabla(titulo, datos){
+            document.querySelector('#tituloTable').innerHTML = titulo;
+            //Obtiene claves
+            let keysObject = Object.keys(datos[0]);
+            let tabla = '<tr>';
+            keysObject.forEach(llave => tabla += `<th>${ llave }</th>`)
+            tabla += '</tr>';
+            datos.forEach( fila => {
+                tabla += `<tr>`;
+                    keysObject.forEach(llave => {
+                        tabla += `<td>${ fila[llave] }</td>`
+                    })
+                    tabla += '</tr>';
+            } );
+            document.querySelector('#datos').innerHTML = tabla;
+        }
+    </script>
+</body>
+</html>
